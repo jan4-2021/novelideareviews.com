@@ -1,0 +1,324 @@
+/*	--------------------------------------------------
+	:: Ultimate Book Blogger - General
+	-------------------------------------------------- */
+
+	/* Content Warning */
+	.ubb-content-warning {
+		color:white;
+		background-color:#E61C20;
+		margin-bottom:15px;
+		padding:5px;
+		/*text-shadow:0 -1px rgba(0, 0, 0, 0.3);*/
+		border:1px solid rgba(0, 0, 0, 0.1);
+	}
+	
+	/* Book Cover Image */
+	img.ubb-cover-image { }
+	img.ubb_left {
+		float:left;
+		margin:0 15px 15px 0 !important;
+	}
+	img.ubb_right {
+		float:right;
+		margin:0 0 15px 15px !important;
+	}
+	img.ubb_center {
+		float:none;
+		margin:0 auto 15px auto !important;
+		display:block;
+	}
+	
+	/* Blockquote */
+	.ubb-synopsis {
+		margin-top:10px;
+	}
+	
+	/* Rating at end of post */
+	.ubb-final-rating {
+		text-align:center;
+	}
+	
+/*	--------------------------------------------------
+	:: Widgets
+	-------------------------------------------------- */
+	
+	/* Books Reviewed Counter */
+	span.books-reviewed-count { font-weight:bold; }
+	.ubb-progress-bar {
+		-webkit-border-radius:1000px;
+		-moz-border-radius:1000px;
+		-ms-border-radius:1000px;
+		-o-border-radius:1000px;
+		border-radius:1000px;
+		width:100%;
+		margin-bottom:10px;
+		border:1px solid black;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		-ms-box-sizing:border-box;
+		-o-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+	.ubb-progress-bar .meter {
+		-webkit-border-radius:1000px;
+		-moz-border-radius:1000px;
+		-ms-border-radius:1000px;
+		-o-border-radius:1000px;
+		border-radius:1000px;
+		text-align:center;
+		font-size:12px;
+		padding-top:3px;
+		color:#fff;
+		display:block;
+		overflow:hidden;
+	}
+	p.books-reviewed-link { text-align:center; }
+	
+	/* This Month's Reviews Widget */
+	.UBB-monthReviewsWidget img {
+		height:75px;
+		margin:0 1px;
+	}
+	
+	/* Reviews by Ratings */
+	.UBB-reviewsByRatingWidget p { text-align:center; }
+	
+	/* Social Media - Default */
+	ul.ubb-followers {
+		list-style:none !important;
+		list-style-type:none !important;
+		padding:0;
+		margin:0;
+		overflow:hidden;
+	}
+		ul.ubb-followers li {
+			float:left;
+			padding:5px;
+			text-align:center;
+			list-style-type:none !important;
+		}
+		ul.ubb-followers li.ubb-sm-blocked { width:25%; }
+			ul.ubb-followers li a { display:block; }
+			ul.ubb-followers span { display:block; }
+			ul.ubb-followers span.follower-count { font-weight:bold; }
+	/* Social Media - Block */
+	ul.ubb-followers.ubb-sm-block { }
+		ul.ubb-followers.ubb-sm-block li {
+			float:none !important;
+			text-align:left !important;
+			clear:both;
+		}
+		ul.ubb-followers.ubb-sm-block img {
+			float:left;
+			margin-right:10px;
+		}
+		ul.ubb-followers.ubb-sm-block span {
+			display:inline-block !important;
+			line-height:32px;
+		}
+			ul.ubb-followers.ubb-sm-block .follower-count:after {
+				content: "\00a0";
+			}
+			
+	/* Currently Reading */
+	.UBB-currentlyReadingWidget { text-align:center; }
+		.UBB-currentlyReadingWidget img { margin:0 2px; }
+	
+/*	--------------------------------------------------
+	:: Review Indexes
+	-------------------------------------------------- */
+	ul.review-index { list-style-type:none; margin:0 0 0 5px; }
+	ul.review-index > li { margin-bottom:10px; }
+	ul.review-index ul { margin-top:0; }
+	p.reviews-by-rating-star { text-align:center; }
+		p.reviews-by-rating-star img { margin:0; }
+		
+	/* sortable */
+	#ubb-sorted-archive th {
+		padding-right:25px;
+		cursor:pointer;
+		background-image:url('/web/20131007232512im_/http://novelideareviews.com/wp-content/plugins/ultimate-book-blogger/assets/images/sort.gif');
+		background-repeat:no-repeat;
+		background-position:center right;
+	}
+	#ubb-sorted-archive th.tablesorter-headerAsc {
+		background-image:url('/web/20131007232512im_/http://novelideareviews.com/wp-content/plugins/ultimate-book-blogger/assets/images/sort-asc.gif');
+	}
+	#ubb-sorted-archive th.tablesorter-headerDesc {
+		background-image:url('/web/20131007232512im_/http://novelideareviews.com/wp-content/plugins/ultimate-book-blogger/assets/images/sort-desc.gif');
+	}
+	#ubb-sorted-archive th.filter-false {
+		background-image:none !important;
+		padding-right:none !important;
+		cursor:auto !important
+	}
+	
+	.tablesorter-filter-row td {
+		padding:0 5px;
+	}
+/*	--------------------------------------------------
+	:: Statistics
+	-------------------------------------------------- */
+	table.ubb-statistics td { text-align:center; }
+	
+/*	--------------------------------------------------
+	:: About the Author
+	-------------------------------------------------- */
+	.ubb-about-author {
+		padding:10px;
+		margin:10px 0;
+		overflow:hidden;
+	}
+	.ubb-about-author h2 { text-align:center; margin-top:0; }
+	.ubb-about-author img {
+		float:left;
+		margin:0 15px 15px 0 !important;
+	}
+	.ubb-about-author p.author-links { text-align:center; }
+	.ubb_book_rating { text-align:center; }
+	
+/*	--------------------------------------------------
+	:: Related Posts
+	-------------------------------------------------- */
+	.ubb-related-rating-header { clear:both; }
+	/* Tabs */
+	.ubb-tabs-nav ul li a {
+		outline:0 !important;
+	}
+
+	.ubb-tabs ul {
+		list-style-type:none;
+		margin:0 0 -1px !important;
+		padding:0;
+		clear:both;
+		overflow:hidden;
+		/*border-bottom:1px solid #e6e6e6;*/
+	}
+		.ubb-tabs ul li {
+			display:inline-block;
+			margin: 0 !important;
+			padding:0 !important;
+			background:none !important;
+		}
+			.ubb-tabs ul li.ui-state-active {
+				border:1px solid #e6e6e6;
+				border-bottom-color:white;
+			}
+			.ubb-tabs ul li a {
+				display:block;
+				padding:10px 15px;
+				border-bottom:none;
+			}
+	.ubb-tabs-content {
+		border:1px solid #e6e6e6;
+		border-top:none;
+		padding:10px 5px;
+		margin-bottom:7px;
+	}
+	
+	/* Groups */
+	.ubb-related-posts {
+		min-height:180px;
+		overflow:hidden;
+		clear:both;
+	}
+	/* Individual posts */
+	.ubb-related-post {
+		text-align:center;
+		width:20%;
+		float:left;
+		display:block;
+		text-decoration:none;
+		cursor:pointer;
+	}
+		.ubb-related-post a {
+			display:block;
+			padding:6px;
+			border-bottom:none !important;
+		}
+		.ubb-related-post img {
+			max-width:100%;
+			height:auto;
+		}
+	
+/*	--------------------------------------------------
+	:: Spoilers
+	-------------------------------------------------- */
+	.ubb-spoiler { display:inline; }
+	.ubb-spoiler span.ubb-thespoil { background:#ffff99; }
+	a.ubb-view-spoil:hover, a.ubb-hide-spoil:hover { cursor:hand; cursor:pointer; }
+	.ubb-spoiler span.ubb-thespoil { display:inline-block; padding:0 3px; }
+	
+	
+	
+/*	--------------------------------------------------
+	:: Image Slider
+	-------------------------------------------------- */
+	.fullwidthbanner { position:relative; }
+		.fullwidthbanner ul { list-style:none !important; }
+	/*.fullwidthbanner img, .fullwidthbanner li, .fullwidthbanner ul { max-width:100% !important; }
+	.fullwidthbanner ul { overflow:hidden; }*/
+	.fullwidthbanner-container {
+		width:100% !important;
+		position:relative;
+		padding:0;
+		max-height:450px !important;
+		margin-bottom:25px;
+	}
+	.fullwidthbanner { overflow:hidden; }
+	.ubb-caption {
+		color:#ffffff !important;
+		background:#000000;
+		background:rgba(0, 0, 0, 0.8);
+		padding:10px;
+	}
+		.ubb-caption h4 {
+			font-size:20px;
+			line-height:20px;
+			color:white !important;
+		}
+			.ubb-excerpt-box h4 { margin:0 0 10px; }
+		.ubb-caption div { color:#ffffff !important; }
+	.ubb-excerpt-box {
+		width:250px;
+		white-space:normal !important;
+		padding:15px;
+	}
+		.ubb-button {
+			text-align:center;
+			margin-top:10px;
+		}
+			.ubb-button a {
+				display:inline-block;
+				color:white !important;
+				background:#a5be00;
+				padding:6px 10px;
+				text-transform:uppercase;
+				font-size:10px;
+				font-weight:bold;
+			}
+		.ubb-caption p {
+			margin-bottom:7px;
+			color:white !important;
+		}
+/*
+     FILE ARCHIVED ON 23:25:12 Oct 07, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:46:29 Jan 05, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 193.623
+  exclusion.robots: 0.072
+  exclusion.robots.policy: 0.066
+  RedisCDXSource: 1.777
+  esindex: 0.007
+  LoadShardBlock: 174.551 (3)
+  PetaboxLoader3.datanode: 1101.667 (4)
+  CDXLines.iter: 15.117 (3)
+  load_resource: 1709.139
+  PetaboxLoader3.resolve: 430.303
+*/

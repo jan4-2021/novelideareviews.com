@@ -1,0 +1,94 @@
+/*
+Wordpress Popular Posts plugin stylesheet
+Developed by Hector Cabrera
+cabrerahector.com | @cabrerahector
+
+Use the following classes to style your popular posts list as you like.
+*/
+
+/* Styles the "Sorry, no data so far" message */
+.wpp-no-data {
+}
+
+/* UL - Popular Posts container styles */
+.wpp-list {	
+}
+
+	/* LI - Post container styles */
+	.wpp-list li {
+		overflow: hidden;
+		float: none;
+		clear: both;
+	}
+	
+	/* Styles for the popular post in view */
+	.wpp-list li.current {
+	}
+	
+		/* Thumbnail styles */
+		.wpp-thumbnail {
+			display: inline;
+			float: left;
+			margin: 0 5px 0 0;
+			border: none;
+		}
+
+		/* Title styles */
+		.wpp-post-title {
+		}
+		
+		/* Excerpt styles */
+		.wpp-excerpt {
+		}
+		
+		/* Stats tag styles */
+		.wpp-meta, .post-stats {
+			display: block;
+			font-size: 0.8em;
+			font-weight: bold;
+		}
+			
+			/* Comments count styles */
+			.wpp-comments {
+			}
+			
+			/* Views count styles */
+			.wpp-views {
+			}
+			
+			/* Author styles */
+			.wpp-author {
+			}
+			
+			/* Post date styles */
+			.wpp-date {
+			}
+			
+			/* Post category styles */
+			.wpp-category {
+			}
+		
+		/* WP-PostRatings styles */
+		.wpp-rating {
+		}
+/*
+     FILE ARCHIVED ON 00:26:33 Feb 03, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:46:49 Jan 05, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  PetaboxLoader3.resolve: 68.988 (2)
+  load_resource: 88.241
+  captures_list: 116.928
+  LoadShardBlock: 82.623 (3)
+  esindex: 0.019
+  RedisCDXSource: 2.138
+  exclusion.robots.policy: 0.209
+  CDXLines.iter: 27.29 (3)
+  exclusion.robots: 0.225
+  PetaboxLoader3.datanode: 76.646 (4)
+*/

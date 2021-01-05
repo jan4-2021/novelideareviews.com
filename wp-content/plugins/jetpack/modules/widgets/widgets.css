@@ -1,0 +1,35 @@
+/*
+ * Widget styles for Jetpack
+ */
+
+/* Clear floats */
+.jetpack-image-container:after {
+	clear: both;
+}
+.jetpack-image-container:before,
+.jetpack-image-container:after {
+	display: table;
+	content: "";
+}
+
+/*
+     FILE ARCHIVED ON 01:21:45 May 15, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:44:52 Jan 05, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.159
+  load_resource: 193.842
+  PetaboxLoader3.datanode: 2065.037 (4)
+  exclusion.robots.policy: 0.146
+  esindex: 0.009
+  PetaboxLoader3.resolve: 32.64
+  RedisCDXSource: 0.623
+  LoadShardBlock: 2370.922 (3)
+  CDXLines.iter: 17.721 (3)
+  captures_list: 2393.12
+*/

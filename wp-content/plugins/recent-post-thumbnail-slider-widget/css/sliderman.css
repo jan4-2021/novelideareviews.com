@@ -1,0 +1,78 @@
+.rpswNamePrev_2 {
+	background: url(/web/20150629001525im_/http://novelideareviews.com/wp-content/plugins/recent-post-thumbnail-slider-widget/img/left.png) no-repeat left center !important;
+	width: 50px;
+	height: 50px;
+	display: block;
+	position: absolute;
+	top: 75px;
+	left: 0;
+	text-decoration: none;
+	
+}
+
+.rpswNameNext_2 {
+	background: url(/web/20150629001525im_/http://novelideareviews.com/wp-content/plugins/recent-post-thumbnail-slider-widget/img/right.png) no-repeat right !important;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 75px;
+	right: 0px;
+	text-decoration: none;
+}
+
+.rpswDescription_2{
+ margin:5px 5px 5px 5px;
+
+}
+
+
+.rpswDescription_2 a:hover{
+	text-decoration:none;
+}
+
+.rpswDescription_2 a{
+	text-decoration:none;
+	color: #FFFFFF;
+	background: none;
+	font-weight:bold;
+}
+
+.rpswDescription_2 h4{
+	margin: 0 auto;
+}
+.recent_posts_slider_widget .featured-post{
+	margin: 5px 0 5px 0;
+
+}
+.rpswSliderName_2 img{
+	max-width:100% !important;
+	max-height:100% !important
+}
+
+
+#rpswContainer_2{ width:auto;}
+
+#rpswNameNavigation_2{
+display:none; position: absolute;
+}
+/*
+     FILE ARCHIVED ON 00:15:25 Jun 29, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:45:21 Jan 05, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 64.792 (3)
+  exclusion.robots.policy: 0.216
+  esindex: 0.019
+  load_resource: 103.723
+  CDXLines.iter: 22.961 (3)
+  RedisCDXSource: 0.954
+  captures_list: 93.153
+  exclusion.robots: 0.233
+  PetaboxLoader3.resolve: 27.82
+  PetaboxLoader3.datanode: 80.379 (4)
+*/

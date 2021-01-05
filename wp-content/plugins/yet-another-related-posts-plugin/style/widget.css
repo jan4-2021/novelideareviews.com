@@ -1,0 +1,55 @@
+.yarpp_pro_msg{
+    border: 1px ridge #D0D0D0;
+    padding: 0.4em 2em 0.8em;
+    text-align: justify;
+}
+.yarpp_pro_msg strong{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    color: orange;
+}
+.yarpp_help {
+    position: relative;
+    display: inline-block;
+    background: transparent url('/web/20190130070332im_/http://www.novelideareviews.com/wp-includes/images/wpicons.png') no-repeat -520px -20px;
+    vertical-align: text-bottom;
+    width: 20px;
+    height: 20px;
+}
+.yarpp_help_msg {
+    position: absolute;
+    left: 25px;
+    display: none;
+    border: 1px solid #D0D0D0;
+    width: 250px;
+    text-align: justify;
+    padding: 10px 15px;
+    background-color: #FFF;
+    box-shadow: 0 0 0.4em -0.15em #333;
+    z-index: 100;
+}
+.yarpp_help:hover .yarpp_help_msg{
+    display: block
+}
+/*
+     FILE ARCHIVED ON 07:03:32 Jan 30, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:46:57 Jan 05, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 201.145 (3)
+  RedisCDXSource: 12.599
+  PetaboxLoader3.resolve: 43.154
+  exclusion.robots: 0.123
+  captures_list: 235.161
+  load_resource: 98.391
+  PetaboxLoader3.datanode: 222.737 (4)
+  exclusion.robots.policy: 0.114
+  esindex: 0.016
+  CDXLines.iter: 18.21 (3)
+*/

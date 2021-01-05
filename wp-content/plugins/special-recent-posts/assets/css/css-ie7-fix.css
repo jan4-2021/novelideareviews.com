@@ -1,0 +1,45 @@
+/*
+| --------------------------------------------------------
+| File        : css-ie-fix.css
+| Project     : Special Recent Posts FREE Edition plugin for Wordpress
+| Version     : 1.9.9
+| Description : Specific stylesheet for IE7 browser
+| Author      : Luca Grandicelli
+| Author URL  : http://www.lucagrandicelli.com
+| Plugin URL  : http://www.specialrecentposts.com
+| Copyright (C) 2011-2012  Luca Grandicelli
+| --------------------------------------------------------
+*/
+
+div.srp-thumbnail-box {
+	float          : left;
+	vertical-align : top;
+	padding-right  : 10px;
+}
+
+div.srp-content-box {
+	display          : inline-block;
+	vertical-align   : top;
+}
+
+/*
+     FILE ARCHIVED ON 23:26:06 Oct 07, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:46:11 Jan 05, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots.policy: 0.165
+  exclusion.robots: 0.178
+  CDXLines.iter: 22.87 (3)
+  esindex: 0.011
+  RedisCDXSource: 37.654
+  PetaboxLoader3.resolve: 68.901
+  captures_list: 172.151
+  load_resource: 95.573
+  LoadShardBlock: 107.453 (3)
+  PetaboxLoader3.datanode: 61.344 (4)
+*/

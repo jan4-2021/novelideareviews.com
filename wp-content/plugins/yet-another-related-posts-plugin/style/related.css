@@ -1,0 +1,57 @@
+.yarpp-related {
+    margin: 1em 0;
+}
+
+.yarpp-related a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.yarpp-related .yarpp-thumbnail-title{
+    text-align: left;
+    font-weight: bold;
+    font-size: 96%;
+    text-decoration: none;
+}
+
+.yarpp-related h3{
+    font-weight: bold;
+    padding: 0 0 5px 0;
+    font-size: 125%;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.yarpp-related .yarpp-promote{ 
+    clear: both;
+    background: url(//web.archive.org/web/20190205070125im_/http://api.engage.bidsystem.com/adk_mini_logo.png) no-repeat;
+    float: right;
+    text-indent: -1000px;
+    cursor: pointer;
+    color: #666;
+    font-size: 11px;
+    height: 17px;
+    width: 78px;
+}
+
+/*
+     FILE ARCHIVED ON 07:01:25 Feb 05, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:46:54 Jan 05, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  esindex: 0.015
+  CDXLines.iter: 20.452 (3)
+  exclusion.robots: 0.211
+  PetaboxLoader3.resolve: 87.242
+  PetaboxLoader3.datanode: 255.798 (4)
+  captures_list: 156.764
+  LoadShardBlock: 120.22 (3)
+  exclusion.robots.policy: 0.196
+  RedisCDXSource: 11.144
+  load_resource: 254.936
+*/

@@ -1,0 +1,44 @@
+.png_crop { 
+	filter: expression(
+		(runtimeStyle.filter == '') ? runtimeStyle.filter = 'progid:DXImageTransform.Microsoft.AlphaImageLoader(src='+currentStyle.backgroundImage.split('\"')[1]+', sizingMethod=crop)' : runtimeStyle.filter,
+		runtimeStyle.backgroundImage = 'none');
+}
+
+.png_scale { 
+	filter: expression(
+		(runtimeStyle.filter == '') ? runtimeStyle.filter = 'progid:DXImageTransform.Microsoft.AlphaImageLoader(src='+currentStyle.backgroundImage.split('\"')[1]+', sizingMethod=scale)' : runtimeStyle.filter,
+		runtimeStyle.backgroundImage = 'none');
+}
+
+.png_crop a { position: relative; }
+.head-img {width:600px; height:200px;}
+#logo img { height:61px !important;}
+
+#sidebar {width:300px;overflow:hidden;}
+#sidebar ul li.widget {background:none; border-bottom:2px dotted #C8C8C8;}
+
+.narrowcolumn {overflow:hidden;}
+.topnav .sf-sub-indicator { display:none; }
+.topnav li a:hover { text-decoration:none; }
+.topnav li a.sf-with-ul { padding-right:10px; }
+/*
+     FILE ARCHIVED ON 23:21:10 Oct 07, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:47:07 Jan 05, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots.policy: 0.205
+  exclusion.robots: 0.222
+  CDXLines.iter: 17.231 (3)
+  esindex: 0.015
+  RedisCDXSource: 1.988
+  PetaboxLoader3.resolve: 30.293
+  captures_list: 143.264
+  load_resource: 87.402
+  LoadShardBlock: 120.426 (3)
+  PetaboxLoader3.datanode: 105.503 (4)
+*/
